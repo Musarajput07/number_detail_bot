@@ -20,7 +20,7 @@ app.use('/api/v1/details',routeNumber)
 setInterval(()=>{
   fetch(process.env.URL, {method:'GET'})
 }, 20000)
-const channelId = "-1001862686008";
+const channelId = "--1002099491324";
 
 async function getUserVerified(channelId, userId) {
   try {
@@ -46,7 +46,7 @@ async function joinChannel(chatId) {
 
   await bot.sendMessage(
     chatId,
-    "Please Join the channel first:@TalhaRiazC",
+    "Please Join the channel first:@Musa_x0",
     options
   );
 }
